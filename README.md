@@ -1,7 +1,17 @@
 ```
-import monitor from perforweb
+import { Monitor } from perforweb
 const config = {
-  entryTypes: ['paint', 'navigation']
+  list: {
+      entryTypes: ['paint', 'navigation']
+  },
+  log: true,
+  influxdb: {
+      status: true,
+      host:
+      port:
+      username:
+      password:
+  }
 }
-monitor.observer.observe(config)
+Monitor.observer.observe(config)
 ```

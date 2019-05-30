@@ -1,2 +1,2 @@
 'use strict'
-module.exports = require('./lib/perforweb')
+module.exports = require('./lib/monitor')
