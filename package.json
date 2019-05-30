@@ -1,0 +1,26 @@
+{
+  "name": "perforweb",
+  "version": "1.0.0",
+  "description": "website performance monitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terryshi96/perforweb.git"
+  },
+  "keywords": [
+    "web",
+    "performance"
+  ],
+  "author": "Terry.Shi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terryshi96/perforweb/issues"
+  },
+  "homepage": "https://github.com/terryshi96/perforweb#readme",
+  "dependencies": {
+    "influxdb-nodejs": "^3.0.0"
+  }
+}
