@@ -1,2 +1,2 @@
 'use strict'
-module.exports = require('./lib/monitor')
+module.exports = require('./lib/collector')
