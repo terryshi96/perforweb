@@ -5,6 +5,7 @@ const config = {
       entryTypes: ['paint', 'navigation']
   },
   log: true,
+  sercret: xxxx
   influxdb: {
       status: true,
       host:
