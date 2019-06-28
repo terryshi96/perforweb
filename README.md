@@ -1,18 +1,16 @@
 ```
-import { Monitor } from perforweb
+import Collector from './collector'
 const config = {
-  list: {
-      entryTypes: ['paint', 'navigation']
-  },
-  log: true,
-  sercret: xxxx
+  list: ['resource', 'navigation'],
+  timeout: 10,
   influxdb: {
-      status: true,
-      host:
-      port:
-      username:
-      password:
+    host: 'localhost',
+    port: 8086,
+    database: 'test',
+    username: 'admin',
+    password: 'admin'
   }
 }
-Monitor.observer.observe(config)
+let c = new Collector(config)
+c.listen()
 ```
