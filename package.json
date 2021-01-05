@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/terryshi96/perforweb#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "detect-browser": "^4.5.0",
     "influx": "^5.1.0",
     "js-base64": "^2.5.1",
